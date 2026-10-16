@@ -1,0 +1,9 @@
+Automated test evidence
+=======================
+The tests are included in tests/test_app.py but were not successfully executed in the package-generation environment because Flask is not installed there.
+
+On your computer, install dependencies and run:
+    python -m pip install -r requirements.txt
+    python -m pytest -q
+
+Take a screenshot of the passing test summary from your own environment and include it as evidence. Do not present an unrun test as passing.
